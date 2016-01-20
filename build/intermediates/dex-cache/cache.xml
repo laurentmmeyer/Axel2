@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/libs/androidasync-1.1.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ed2f65ce1d88cc22be93ca60178d18728a28b55">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/androidasync-1.1.6_15491b4a1de2255f45c596ac35525da2536a2941.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/libs/htmlcleaner-2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d06debfc00c7b746d464d60e9ec31417596cd4de">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/htmlcleaner-2.2_8a614f01bcaef84ce27c13a0d87a751f5a69e287.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/gson-2.2.4_43f94004964efb9b0a90258a736052e925772836.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/exploded-aar/Axel1/pList/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c49368d2ce9400d5d7a08f00a15e7e8263e5e51">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/Axel1-pList-unspecified_3f969669573d9fcd744caffb49e399f71200f34e.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/exploded-aar/Axel1/androidLib/unspecified/jars/libs/juniversalchardet-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4833e2deff6350f1ece8a337a454b3fa82075c04">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/juniversalchardet-1.0.3_3a4a4806799041f5c481b4bfe177fccfd3924bbc.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/libs/ion-1.1.7.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="32557ac9789fb0e5be4215132e9728d0996b46d4">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/ion-1.1.7_1a290cf5f989b8c55dc5ad1bcf71c5c8a626e189.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/exploded-aar/Axel1/dragsortlistview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d784228e37015eff5ed30a91424689677d155d1">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/Axel1-dragsortlistview-unspecified_07e7019101fd699a05c318fb32cf05cfa4045866.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/exploded-aar/Axel1/aXML/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1abfa779b209ce3b31ad4331fb4386e96c04799c">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/Axel1-aXML-unspecified_211775171c3bd520666b60715afa49f64acd8a76.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/libs/XmlSchema-1.4.7.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a667ab231d6333105db86efe4a96724f50913e1f">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/XmlSchema-1.4.7_20bf323e971bdad607f2c9c3839e16271880ba58.jar" />
+    </item>
+    <item
+        jar="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/exploded-aar/Axel1/androidLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b07227476ed05cee395f9d488f888061e7dcacba">
+        <dex dex="/Users/laurentmeyer/Downloads/Axel1/axel/build/intermediates/pre-dexed/debug/Axel1-androidLib-unspecified_3f9fe9b00bf97caca435b3fa36b6300f46f688ad.jar" />
+    </item>
+
+</items>

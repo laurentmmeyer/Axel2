@@ -1,0 +1,185 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AXML:
+* .git
+* .gitignore
+* README.md
+* build.xml
+* proguard-project.txt
+From AndroidLib:
+* .git
+* .gitignore
+* README.md
+* build.xml
+* proguard-project.txt
+From Axel:
+* BUILD_APK.bat
+* apk-version.build.xml
+* build-output.log
+* build.xml
+* ic_launcher-web.png
+* ic_launcher_validator-web.png
+From Drag-sort-listview:
+* .git
+* .gitignore
+* README.md
+* ant.properties
+* build.xml
+* demo/
+* demo/.gitignore
+* demo/AndroidManifest.xml
+* demo/ant.properties
+* demo/build.xml
+* demo/libs/
+* demo/libs/android-support-v4.jar
+* demo/proguard-project.txt
+* demo/project.properties
+* demo/res/
+* demo/res/drawable-hdpi/
+* demo/res/drawable-hdpi/drag.9.png
+* demo/res/drawable-mdpi/
+* demo/res/drawable-mdpi/drag.9.png
+* demo/res/drawable/
+* demo/res/drawable/bg_handle.xml
+* demo/res/drawable/bg_handle_section1.xml
+* demo/res/drawable/bg_handle_section1_selector.xml
+* demo/res/drawable/bg_handle_section2.xml
+* demo/res/drawable/bg_handle_section2_selector.xml
+* demo/res/drawable/drag.9.png
+* demo/res/drawable/section_div.xml
+* demo/res/layout/
+* demo/res/layout/bg_handle_main.xml
+* demo/res/layout/dslv_fragment_main.xml
+* demo/res/layout/header_footer.xml
+* demo/res/layout/hetero_main.xml
+* demo/res/layout/jazz_artist_list_item.xml
+* demo/res/layout/launcher.xml
+* demo/res/layout/launcher_item.xml
+* demo/res/layout/list_item_bg_handle.xml
+* demo/res/layout/list_item_handle_left.xml
+* demo/res/layout/list_item_handle_right.xml
+* demo/res/layout/list_item_no_handle.xml
+* demo/res/layout/section_div.xml
+* demo/res/layout/sections_main.xml
+* demo/res/layout/test_bed_main.xml
+* demo/res/layout/warp_main.xml
+* demo/res/menu/
+* demo/res/menu/mode_menu.xml
+* demo/res/values/
+* demo/res/values/colors.xml
+* demo/res/values/dimens.xml
+* demo/res/values/ids.xml
+* demo/res/values/strings.xml
+* demo/src/
+* demo/src/com/
+* demo/src/com/mobeta/
+* demo/src/com/mobeta/android/
+* demo/src/com/mobeta/android/demodslv/
+* demo/src/com/mobeta/android/demodslv/ArbItemSizeDSLV.java
+* demo/src/com/mobeta/android/demodslv/BGHandle.java
+* demo/src/com/mobeta/android/demodslv/DSLVFragment.java
+* demo/src/com/mobeta/android/demodslv/DSLVFragmentBGHandle.java
+* demo/src/com/mobeta/android/demodslv/DSLVFragmentClicks.java
+* demo/src/com/mobeta/android/demodslv/DragInitModeDialog.java
+* demo/src/com/mobeta/android/demodslv/EnablesDialog.java
+* demo/src/com/mobeta/android/demodslv/Launcher.java
+* demo/src/com/mobeta/android/demodslv/RemoveModeDialog.java
+* demo/src/com/mobeta/android/demodslv/Sections.java
+* demo/src/com/mobeta/android/demodslv/TestBedDSLV.java
+* demo/src/com/mobeta/android/demodslv/WarpDSLV.java
+* proguard-project.txt
+* tools/
+* tools/dslv.py
+* tools/pkg-dslv.sh
+From PList:
+* .git
+* .gitignore
+* README.md
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AXML:
+* AndroidManifest.xml => aXML/src/main/AndroidManifest.xml
+* res/ => aXML/src/main/res/
+* src/ => aXML/src/main/java/
+In AndroidLib:
+* AndroidManifest.xml => androidLib/src/main/AndroidManifest.xml
+* libs/juniversalchardet-1.0.3.jar => androidLib/libs/juniversalchardet-1.0.3.jar
+* res/ => androidLib/src/main/res/
+* src/ => androidLib/src/main/java/
+In Drag-sort-listview:
+* AndroidManifest.xml => dragsortlistview/src/main/AndroidManifest.xml
+* res/ => dragsortlistview/src/main/res/
+* src/ => dragsortlistview/src/main/java/
+In PList:
+* AndroidManifest.xml => pList/src/main/AndroidManifest.xml
+* src/ => pList/src/main/java/
+In Axel:
+* AndroidManifest.xml => axel/src/main/AndroidManifest.xml
+* assets/ => axel/src/main/assets/
+* libs/XmlSchema-1.4.7.jar => axel/libs/XmlSchema-1.4.7.jar
+* libs/androidasync-1.1.6.jar => axel/libs/androidasync-1.1.6.jar
+* libs/htmlcleaner-2.2.jar => axel/libs/htmlcleaner-2.2.jar
+* libs/ion-1.1.7.jar => axel/libs/ion-1.1.7.jar
+* libs/juniversalchardet-1.0.3.jar => axel/libs/juniversalchardet-1.0.3.jar
+* res/ => axel/src/main/res/
+* src/ => axel/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

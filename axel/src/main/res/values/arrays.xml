@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Recent files -->
+    <string-array name="max_recent_files">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <!-- Quick actions -->
+    <string-array name="node_quick_actions_entries">
+        <item>Edit the node</item>
+        <item>Add a child node</item>
+        <item>Change the children order</item>
+        <item>Display the context menu</item>
+        <item>Comment / uncomment the node</item>
+        <item>Delete the node</item>
+        <item>Do nothing</item>
+    </string-array>
+    <string-array name="node_quick_actions_values">
+        <item>edit</item>
+        <item>add_child</item>
+        <item>order_children</item>
+        <item>display_menu</item>
+        <item>comment_toggle</item>
+        <item>delete</item>
+        <item>nothing</item>
+    </string-array>
+
+    <!-- Indentation -->
+    <string-array name="indentation_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="indentation_values">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+</resources>

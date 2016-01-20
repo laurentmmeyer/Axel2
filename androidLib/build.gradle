@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/juniversalchardet-1.0.3.jar')
+}
